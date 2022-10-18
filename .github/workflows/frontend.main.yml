@@ -21,7 +21,7 @@ jobs:
         inlineScript: |
             az storage blob upload-batch --account-name webrestumestorage --auth-mode key -d '$web' -s frontend/
 
-  Azure logout
+  # Azure logout
     - name: logout
       run: |
             az logout
